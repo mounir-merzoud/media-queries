@@ -1,0 +1,24 @@
+*{
+    background-color: #88c1d0;
+    color: #000; /* Couleur du texte pour contraster avec le fond */
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    *{
+        background-color: #ffca4b;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    *{
+        background-color: #275fa0;
+        color: #fff; /* Couleur du texte pour contraster avec le fond */
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    *{
+        background-color: #ffffff;
+        color: #000; /* Couleur du texte pour contraster avec le fond */
+    }
+}
